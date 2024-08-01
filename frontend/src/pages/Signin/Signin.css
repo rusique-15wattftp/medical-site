@@ -1,0 +1,18 @@
+.signin-container {
+    max-width: 70vw;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.signin-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+@media screen and (min-width: 800px) {
+    .signin-container {
+        width: 500px;
+    }
+}
